@@ -78,19 +78,16 @@ p {
   color: white;
 }
 
-/* Styles pour cacher les boutons Wishlist et Panier initialement */
 .wishlist-btn,
 .panier-btn {
   display: none;
 }
 
-/* Styles pour afficher les boutons au survol de l'image de l'article */
 .article img:hover + .wishlist-btn,
 .article img:hover + .panier-btn {
   display: inline-block;
 }
 
-/* Ajoutez ceci à votre fichier styles.css */
 #wishlist-menu,
 #cart-menu {
   list-style-type: none;
